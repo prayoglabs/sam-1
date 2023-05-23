@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h1>Demo: JavaScript Arithmatic Operators</h1>
+	 x + y = <div id="p1"></div>
+	x - y = <div id="p2"></div>
+	x * y = <div id="p3"></div>
+
+	<p id="p4"></p>
+	<p id="p5"></p>
+	<p id="p6"></p>
+	<p id="p7"></p>
+	<script>
+		var x = 5, y = 10, z = 15;
+		document.getElementById("p1").innerHTML = x + y; //returns 15
+		document.getElementById("p2").innerHTML = x - y; //returns -5
+		document.getElementById("p3").innerHTML = x * y; //returns 50
+		document.getElementById("p4").innerHTML = y / x; //returns 2
+		document.getElementById("p5").innerHTML = x % 2; //returns 1
+		x++;
+		document.getElementById("p6").innerHTML = x; //returns 6
+		x--;
+		document.getElementById("p7").innerHTML = x; //returns 5
+</script>
+</body>
+</html>
